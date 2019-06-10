@@ -57,7 +57,7 @@ public class ReviewLoan2 extends AppCompatActivity {
     }
 
     public void openHomepage(){
-        Intent intent = new Intent(this, Homepage.class);
+        Intent intent = new Intent(this, Signature.class);
         startActivity(intent);
     }
 }
